@@ -5,10 +5,10 @@ void main()
   float WinAmount[10] = {55555, 10000, 10000, 5000, 5000, 5000, 5000, 3000, 3000, 3000};
   int N = 10;
   int i, won;
-  
+
   int YourLotteryNo;
 
-  printf("Enter your Lottery Number (0 to end): ");
+  printf("Enter a Lottery Number (0 to end): ");
   scanf("%d", &YourLotteryNo);
   while (YourLotteryNo != 0)
   {
@@ -17,7 +17,7 @@ void main()
     {
        if (YourLotteryNo == WinLotteryNo[i])
        {
-          printf("Congratulations You Won %8.2f baht\n", WinAmount[i]);
+          printf("Congratulations YOU Won %8.2f baht\n", WinAmount[i]);
           won = 1;
        }
     }
